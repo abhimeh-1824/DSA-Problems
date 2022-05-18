@@ -4,7 +4,7 @@ function insertionSort(arr,n)
     {
         var value = arr[i];
         var index = i;
-        while(index>0 && arr[index-1]<value)
+        while(index>0 && arr[index-1]>value)
         {
             arr[index] = arr[index-1]
             index = index-1;
