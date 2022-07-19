@@ -5,7 +5,7 @@ function selectionSort(arr,n)
         var min = i;
         for(var j = i+1; j<n; j++)
         {
-            if(arr[j]>arr[min])
+            if(arr[j]<arr[min])
             {
                 min = j;
             }
